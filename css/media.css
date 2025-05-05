@@ -1,0 +1,448 @@
+@media (max-width: 1600px) {
+  .flex {
+    flex-direction: column;
+  }
+  .header__logo {
+    width: 150px;
+    height: 48px;
+  }
+  .about__left {
+    max-width: 100%;
+    max-height: 900px;
+  }
+  .about__content {
+    width: 100%;
+    height: 250px;
+  }
+  .about-right-content {
+    max-width: 100%
+  }
+  .about__card-right {
+    max-width: 100%;
+  }
+  .about-right {
+    padding-left: 400px;
+  }
+  .card-descr {
+    width: 100%;
+  }
+  .stages__descr {
+    margin-right: 50px;
+  } 
+  .stages__right-block {
+    display: flex;
+  }
+  .footer-right {
+    display: none;
+  }
+  .footer-container {
+    justify-content: space-between;
+  }
+  .footer__left {
+    margin-right: 0;
+  }
+  .footer-center {
+    margin-right: 0;
+  }
+} 
+@media (max-width: 1200px) {
+  .header__container {
+    padding: 0 50px;
+  }
+  .header__logo {
+    width: 150px;
+    height: 48px;
+  }
+  .header {
+    margin-bottom: 40px;
+  }
+  .hero__container {
+    padding: 160px 77px 0 77px;
+    min-height: 668px;
+  }
+  .hero {
+    margin-bottom: 35px;
+  }
+  .about__left {
+    min-height: 640px;
+  }
+  .about__content {
+    height: 196px;
+  }
+  .about__card-right {
+    min-height: 295px;
+  }
+  .about {
+    margin-bottom: 77px;
+  }
+  .about__descr {
+    margin-bottom: 60px;
+  }
+  .about-right {
+    padding: 65px 120px 0 316px;
+  }
+  .hero__h1 {
+    font-size: 60px;
+    line-height: 73px;
+    margin-bottom: 16px;
+  }
+  .btn-accent {
+    font-size: 24px;
+  }
+  .hero__descr {
+    font-size: 20px;
+    line-height: 24px;
+    width: 80%;
+    margin-bottom: 60px;
+  }
+  .container {
+    padding: 0 50px;
+  }
+  .stages {
+    margin-bottom: 80px;
+  }
+  .questions__card {
+    min-height: 231px;
+    padding-top: 68px;
+  }
+  .questions {
+    margin-bottom: 80px;
+  }
+  .footer-container {
+    justify-content: normal;
+  }
+  .footer__left {
+    margin-right: 132px;
+    min-width: 252px;
+  }
+  .form-btn {
+    padding: 19px 37px;
+    margin-right: 20px;
+  }
+  .about__descr {
+    width: 100%;
+  }
+  .stages__descr {
+    max-width: 490px;
+    margin-right: 0;
+  }
+  .right__img {
+    content: url(/img/Rectangle\ 18.png);
+  }
+  .questions__block {
+    flex-direction: column;
+  }
+  .questions__card {
+    max-width: 100%;
+    padding-bottom: 25px;
+  }
+  .questions__h3 {
+    max-width: 800px;
+  }
+  .header__logo {
+    margin-right: auto;
+  }
+  .nav__list {
+    gap: 60px;
+    margin-right: 105px;
+  }
+}
+@media (max-width: 925px) {
+  .header__logo {
+    width: 110px;
+  }
+  .nav__list {
+    gap: 0;
+    margin: 0;
+    padding-left: 10px;
+  }
+  .nav__item {
+    margin-right: 40px;
+  }
+  .nav__link {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .hero__h1 {
+    width: 90%;
+    font-size: 50px;
+    line-height: 60.95px;
+  }
+  .hero__container {
+    padding-left: 40px;
+  }
+  .hero__content {
+    width: 100%;
+  }
+  .hero__descr {
+    width: 68%;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    margin-bottom: 60px;
+  }
+  .about__left {
+    background-image: url(/img/fooper.png);
+    max-height: 900px;
+  }
+  .about-right {
+    /* max-height: 230px; */
+    padding: 35px 46px 20px 190px;
+  }
+  .first-card {
+    background-image: url(/img/Frame\ 16.png);
+  }
+  .second-card {
+    background-image: url(/img/Frame\ 12.png);
+  }
+  .questions__card {
+    min-height: 160px;
+    padding: 35px 65px 25px 40px;
+  }
+  .stages__section {
+    flex-direction: column-reverse;
+  }
+  .right__img {
+    content: url(/img/Rectangle18.jpg);
+    min-height: 300px;
+    width: 100%;
+  }
+  .stages__descr {
+    max-width: 900px;
+    margin-right: 0;
+  }
+  .stages__left-block {
+    width: 100%;
+  }
+  .stages__right-block {
+    margin-bottom: 40px;
+  }
+  .footer-container {
+    flex-direction: column-reverse;
+    gap: 50px;
+    padding-left: 50px;
+  }
+  .footer__left-list {
+    display: none;
+  }
+  .footer__left {
+    height: 100%;
+  }
+}
+  @media (max-width: 767px) {
+
+    .header__container {
+      flex-wrap: wrap;
+    }
+    .nav {
+      order: 2;
+      width: 100%;
+      overflow-x: auto;
+    }
+    .nav__item:last-child {
+      margin-right: 0;
+    }
+    .nav__link {
+      white-space: nowrap;
+    }
+    .hero__container {
+      padding: 0;
+      background-image: url(/img/low-angle-photo-of-balconies-2462015\ 1\ \(1\).png);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 350px;
+    }
+    .hero__content {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .hero__h1 {
+      font-size: 20px;
+      line-height: 24px;
+      margin-bottom: 6px;
+      text-align: center;
+    }
+    .hero__descr {
+      font-size: 12px;
+      margin-bottom: 34px;
+      text-align: center;
+    }
+    .btn-accent {
+      padding: 13px 28px;
+      font-size: 12px;
+      min-width: 160px;
+      height: 40px;
+      border-radius: 8px;
+    }
+    .about__h2 {
+      font-size: 24px;
+      line-height: 29px;
+    }
+    .about__descr {
+      font-size: 14px;
+      line-height: 28px;
+    }
+    .about__left {
+      border-radius: 0;
+      min-height: 400px;
+      background-image: url(/img/rectangle2.png);
+      background-size: 100%;
+      background-position: top;
+      padding-top: 72%;
+    }
+    .about__content {
+      padding: 0;
+      background: none;
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 50%;
+    }
+    .content-descr {
+      width: 100%;
+      font-size: 14px;
+      line-height: 28px;
+      color: #000000;
+      margin-bottom: 12px;
+      font-weight: 400;
+    }
+    .about {
+      margin-bottom: 60px;
+    }
+    .about-btn {
+      font-size: 12px;
+      line-height: 14px;
+      padding: 12px 44px;
+      color: #FF9900;
+    }
+    .about-right__title {
+      font-size: 18px;
+      line-height: 21px;
+      font-weight: 600;
+    }
+    .about-right {
+      padding: 0;
+      padding-top: 60px;
+      background-position: left top;
+      border: none;
+    }
+    .first-card {
+      background-image: url(/img/fgr.svg);
+    }
+    .second-card {
+      background-image: url(/img/hop.svg);
+    }
+    .stages__h2 {
+      font-size: 24px;
+      line-height: 29px;
+      margin-bottom: 20px;
+    }
+    .stages__right-block {
+      margin-bottom: 16px;
+    }
+    .right__img {
+      min-height: 160px;
+    }
+    .stages__h3 {
+      font-size: 18px;
+      line-height: 32px;
+      font-weight: 600;
+    }
+    .stages__descr {
+      font-size: 14px;
+      line-height: 28px;
+    }
+    .btn__block {
+      display: flex;
+      gap: 10px;
+    }
+    .stages-orange-btn {
+      width: 160px;
+      font-size: 12px;
+      padding: 12px 44px;
+      line-height: 14px;
+      height: 40px;
+      border-radius: 8px;
+      margin: 0;
+    }
+    .stages-black-btn {
+      padding: 12px 32px;
+      font-size: 12px;
+      line-height: 14px;
+      border-radius: 8px;
+      height: 40px;
+    }
+    .stages {
+      margin-bottom: 60px;
+    }
+    .questions__h2 {
+      font-size: 24px;
+      line-height: 29px;
+      margin-bottom: 20px;
+    }
+    .questions__card {
+      border: none;
+      padding: 0;
+    }
+    .questions__h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .questions__descr {
+      font-size: 14px;
+      line-height: 28px;
+    }
+    .questions {
+      margin-bottom: 60px;
+    }
+    .footer__h2 {
+      font-size: 24px;
+      line-height: 29px;
+    }
+    .footer-container {
+      padding: 0 15px;
+      gap: 0;
+    }
+    .footer {
+      padding: 30px 0;
+    }
+    .footer-center {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .form-textarea {
+      margin: 0;
+    }
+    .footer-center-bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .form-btn {
+      padding: 12px 19px;
+      font-size: 12px;
+      line-height: 14px;
+      border-radius: 8px;
+    }
+    .form-cheks {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .form-chek-label {
+      font-size: 16px;
+      line-height: 32px;
+    }
+    .footer__left {
+      border-top: 1px solid #414141;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
